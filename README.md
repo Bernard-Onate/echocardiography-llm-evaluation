@@ -47,22 +47,23 @@ actions based on structured echocardiographic measurements and baseline clinical
 ---
 
 ## Repository Structure
+
+```text
 echocardiography-llm-evaluation/
-│
 ├── data/
-│ ├── data_unblinded.csv # Unblinded evaluation dataset (de-identified)
-│ └── complexity_scores.csv # Case complexity scores and tier classifications
+│   ├── data_unblinded.csv          # Unblinded evaluation dataset (de-identified)
+│   └── complexity_scores.csv       # Case complexity scores and tier classifications
 │
 ├── scripts/
-│ └── analysis.R # Complete R analysis script
+│   └── analysis.R                  # Complete R analysis script
 │
 ├── figures/
-│ ├── plot1_accuracy.png # Accuracy scores by model (boxplot)
-│ ├── plot2_recommendations.png # Recommendation scores by model (boxplot)
-│ ├── plot3_acceptability.png # Report acceptability by model (stacked bar)
-│ ├── plot4_best_overall.png # Best overall preference (bar chart)
-│ ├── plot5_heatmap.png # Pairwise comparison heatmap
-│ └── plot6_complexity.png # Accuracy across complexity tiers (line graph)
+│   ├── plot1_accuracy.png          # Accuracy scores by model (boxplot)
+│   ├── plot2_recommendations.png   # Recommendation scores by model (boxplot)
+│   ├── plot3_acceptability.png     # Report acceptability by model (stacked bar)
+│   ├── plot4_best_overall.png      # Best overall preference (bar chart)
+│   ├── plot5_heatmap.png           # Pairwise comparison heatmap
+│   └── plot6_complexity.png        # Accuracy across complexity tiers (line graph)
 │
 ├── LICENSE
 └── README.md
